@@ -1,0 +1,9 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security Vulnerability Report
+    url: mailto:agneaybnair@gmail.com
+    about: Please report security vulnerabilities as issues with the "security" label.
+
+# Optional: Disable blank PRs to encourage template use
+pulls:
+  default_template_path: .github/pull_request_template.md

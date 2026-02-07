@@ -1,0 +1,49 @@
+# =========================
+# Haskell / Cabal
+# =========================
+dist/
+dist-newstyle/
+.cabal-sandbox/
+cabal.sandbox.config
+cabal.project.local
+cabal.project.local~
+
+# GHC build artifacts
+*.hi
+*.o
+*.dyn_hi
+*.dyn_o
+*.hie
+*.prof
+*.eventlog
+
+# Executables
+*.exe
+*.out
+
+# =========================
+# SQLite
+# =========================
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# =========================
+# Editors / IDEs
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS-specific
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
